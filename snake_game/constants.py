@@ -1,0 +1,32 @@
+# Window Settings
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 600
+GRID_SIZE = 20  # Size of each grid cell
+GRID_WIDTH = WINDOW_WIDTH // GRID_SIZE
+GRID_HEIGHT = WINDOW_HEIGHT // GRID_SIZE
+
+# Colors (RGB)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+GRAY = (128, 128, 128)
+DARK_GREEN = (0, 100, 0)
+
+# Game States
+MENU = "menu"
+PLAYING = "playing"
+GAME_OVER = "game_over"
+SETTINGS = "settings"
+HIGH_SCORES = "high_scores"
+
+# Menu Settings
+BUTTON_WIDTH = 200
+BUTTON_HEIGHT = 50
+BUTTON_PADDING = 20
+
+# Font Sizes
+LARGE_FONT_SIZE = 48
+MEDIUM_FONT_SIZE = 36
+SMALL_FONT_SIZE = 24
+
